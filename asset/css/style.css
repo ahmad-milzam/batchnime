@@ -206,9 +206,10 @@ a.link.link-active {
     position: absolute;
     text-align: center;
     color: #fff;
+    left: 0;
+    right: 0;
+    top: 16.5em;
     z-index: 9999;
-    top: 17em;
-    left: 5.5em;
 }
 .flickity-page-dots {
     display: none;
@@ -255,12 +256,11 @@ a.link.link-active {
     }
     .gallery-cell .title-nime {
         top: 18em;
-        left: 4.5em;
     }
 }
 
 @media only screen and (max-width: 380px) {
-    .gallery-cell .title-nime {
+    /* .gallery-cell .title-nime {
         left: 4em;
-    }
+    } */
 }
