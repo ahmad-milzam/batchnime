@@ -235,10 +235,11 @@ a.link.link-active {
     padding: 20px;
     border-radius: 20px;
     overflow-x: auto;
+    background-color: rgb(250, 247, 247);
 }
 .content-update {
     width: 100%;
-    background-color: rgb(250, 247, 247);
+    background: transparent;
     object-fit: fill;
 }
 .line-update {
